@@ -4,12 +4,13 @@
   "description": "A Coffee website made with Node & ExpressJS course on Lynda.com",
   "main": "app/app.js",
   "scripts": {
-    "start": "node app/app.js"
+    "start": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json"
   },
   "author": "Martin Kierkegaard",
   "license": "MIT",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.17.4"
   }
 }
