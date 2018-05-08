@@ -1,7 +1,7 @@
 {
   "name": "expressjs",
   "version": "1.0.0",
-  "description": "A Coffee website made with Node & ExpressJS course on Lynda.com",
+  "description": "A simple node.js server with express & ejs ",
   "main": "app/app.js",
   "scripts": {
     "start": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json"
